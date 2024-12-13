@@ -1,0 +1,64 @@
+# Scala/SBT .gitignore
+
+# Compiled class files
+target/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# VS Code
+.vscode/
+
+# MacOS
+.DS_Store
+
+# sbt specific
+project/target/
+project/project/
+.bsp/
+
+# SBT boot directory
+target/scala-*/
+
+# Generated files
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.gzip
+*.tar.gz
+
+# Maven local repository
+.mvn/
+
+# Scala specific
+.cache
+lib_managed/
+
+# Test result files
+TEST-*.xml
+
+# Generated source files
+src_managed/
+
+# Eclipse specific
+*.classpath
+*.project
+
+# NetBeans specific
+nbproject/
+
+# Other
+*.bak
+*.swp
+*.orig
+*.rej
